@@ -11,7 +11,7 @@ export default function Lec5() {
           type="text"
           placeholder="Search here..."
         />
-        <button className="bg-black text-white py-2 rounded-full active:scale-90 transition-transform font-medium md:px-10">
+        <button className="bg-black text-white py-2 rounded-full outline-none active:scale-90 transition-transform font-medium md:px-10">
           Search
         </button>
       </div>

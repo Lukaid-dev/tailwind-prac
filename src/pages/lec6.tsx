@@ -19,7 +19,7 @@ export default function Lec6() {
         <span className="text-red-500 hidden peer-invalid:block">
           Email is required
         </span>
-        <button className="bg-black text-white py-2 rounded-full active:scale-90 transition-transform font-medium md:px-10 peer-required:bg-green-100">
+        <button className="bg-black text-white py-2 rounded-full outline-none active:scale-90 transition-transform font-medium md:px-10 peer-required:bg-green-100">
           Login
         </button>
       </div>

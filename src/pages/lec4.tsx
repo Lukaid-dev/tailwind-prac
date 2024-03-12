@@ -12,7 +12,7 @@ export default function Lec4() {
           type="text"
           placeholder="Search here..."
         />
-        <button className="bg-black text-white py-2 rounded-full active:scale-90 transition-transform font-medium">
+        <button className="bg-black text-white py-2 rounded-full outline-none active:scale-90 transition-transform font-medium">
           Search
         </button>
       </div>
