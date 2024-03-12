@@ -1,4 +1,5 @@
 // tailwind기본, modifier, dark mode
+// modifier란, 조건에 맞으면 스타일을 적용해 주는 것 ex) hover:bg-sky-700
 
 export default function Lec3() {
   return (
