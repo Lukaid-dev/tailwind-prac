@@ -5,14 +5,14 @@
 
 export default function Lec4() {
   return (
-    <main className="bg-gray-100 h-screen flex items-center justify-center p-5">
-      <div className="flex flex-col gap-2 bg-white shadow-lg p-5 rounded-3xl w-full max-w-screen-sm">
+    <main className="flex h-screen items-center justify-center bg-gray-100 p-5">
+      <div className="flex w-full max-w-screen-sm flex-col gap-2 rounded-3xl bg-white p-5 shadow-lg">
         <input
-          className="w-full rounded-full h-10 bg-gray-200 pl-5 py-3 outline-none ring ring-transparent focus:ring-orange-500 focus:ring-offset-2 transition-shadow focus:placeholder:drop-shadow"
+          className="h-10 w-full rounded-full bg-gray-200 py-3 pl-5 outline-none ring ring-transparent transition-shadow focus:ring-orange-500 focus:ring-offset-2 focus:placeholder:drop-shadow"
           type="text"
           placeholder="Search here..."
         />
-        <button className="bg-black text-white py-2 rounded-full outline-none active:scale-90 transition-transform font-medium">
+        <button className="rounded-full bg-black py-2 font-medium text-white outline-none transition-transform active:scale-90">
           Search
         </button>
       </div>

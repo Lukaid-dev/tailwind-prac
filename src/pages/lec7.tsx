@@ -5,15 +5,15 @@
 
 export default function Lec7() {
   return (
-    <main className="bg-gray-100 md:bg-green-100 h-screen flex items-center justify-center p-5">
-      <div className="flex flex-col md:flex-row gap-2 bg-white shadow-lg p-5 rounded-3xl w-full max-w-screen-sm *:outline-none ring ring-transparent transition-shadow has-[:invalid]:ring-red-200 has-[:invalid]:ring has-[:focus:invalid]:bg-red-100">
+    <main className="flex h-screen items-center justify-center bg-gray-100 p-5 md:bg-green-100">
+      <div className="flex w-full max-w-screen-sm flex-col gap-2 rounded-3xl bg-white p-5 shadow-lg ring ring-transparent transition-shadow *:outline-none has-[:focus:invalid]:bg-red-100 has-[:invalid]:ring has-[:invalid]:ring-red-200 md:flex-row">
         <input
-          className="w-full rounded-full h-10 bg-gray-200 pl-5 py-3 ring ring-transparent focus:ring-green-500 focus:ring-offset-2 transition-shadow focus:placeholder:drop-shadow focus:invalid:bg-red-100 focus:invalid:ring-orange-500"
+          className="h-10 w-full rounded-full bg-gray-200 py-3 pl-5 ring ring-transparent transition-shadow focus:ring-green-500 focus:ring-offset-2 focus:placeholder:drop-shadow focus:invalid:bg-red-100 focus:invalid:ring-orange-500"
           type="text"
           required
           placeholder="Search here..."
         />
-        <button className="bg-black text-white py-2 rounded-full active:scale-90 transition-transform font-medium md:px-10">
+        <button className="rounded-full bg-black py-2 font-medium text-white transition-transform active:scale-90 md:px-10">
           Search
         </button>
       </div>

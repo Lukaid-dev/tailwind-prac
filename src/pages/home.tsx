@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center h-screen gap-4">
-      <div className="font-bold text-5xl">Home</div>
+    <div className="flex h-screen flex-col items-center justify-center gap-4">
+      <div className="text-5xl font-bold">Home</div>
       <div className="flex flex-col items-center justify-center">
         <ul className="text-2xl">
           <li>
