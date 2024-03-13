@@ -8,7 +8,7 @@
 // 1. react component로 만들어서 사용
 // 2. @apply directive를 사용
 
-export default function Lec10() {
+export default function Lec11() {
   return (
     <main className="flex h-screen items-center justify-center bg-gray-100 p-5 md:bg-green-100">
       <div className="flex w-full max-w-screen-sm flex-col gap-3 rounded-3xl bg-white p-5 shadow-lg">
