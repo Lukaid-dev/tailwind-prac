@@ -21,6 +21,9 @@ export default function Home() {
           <li>
             <Link to="/lec7">Lec7</Link>
           </li>
+          <li>
+            <Link to="/lec8">Lec8</Link>
+          </li>
         </ul>
       </div>
     </div>
