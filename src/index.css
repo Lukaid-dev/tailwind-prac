@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 각 카테고리를 확장할 수 있음 */
+@layer base {
+  a {
+    @apply text-green-500;
+  }
+}
+
+@layer utilities {
+  .text-bigger {
+    @apply text-3xl font-semibold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply rounded-full bg-black py-2 font-medium text-white transition-transform active:scale-90;
+  }
+}
+
+/* 커스텀 컴포넌트를 생성 할 수 있음 */
+/* .btn {
+  @apply rounded-full bg-black py-2 font-medium text-white transition-transform active:scale-90;
+} */
