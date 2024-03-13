@@ -7,6 +7,7 @@ import Lec6 from './pages/lec6';
 import Lec7 from './pages/lec7';
 import Lec8 from './pages/lec8';
 import Lec9 from './pages/lec9';
+import Lec10 from './pages/lec10';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: '/lec9',
     element: <Lec9 />,
+  },
+  {
+    path: '/lec10',
+    element: <Lec10 />,
   },
 ]);
 
